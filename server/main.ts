@@ -9,8 +9,8 @@ import { oakCors } from "@tajpouria/cors";
 
 const router = new Router();
 
-router.get("/hello", (context) => {
-  context.response.body = "hello World";
+router.get("/server/hello", (context) => {
+  context.response.body = {"message": "hello World"};
 });
 
 const app = new Application();

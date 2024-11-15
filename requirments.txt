@@ -1,0 +1,4 @@
+deno install
+deno add jsr:@oak/oak jsr:@tajpouria/cors
+deno add npm:react-router-dom
+deno install -gArf jsr:@deno/deployctl

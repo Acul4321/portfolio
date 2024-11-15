@@ -2,7 +2,7 @@
   "tasks": {
     "dev": "deno task dev:server & deno task dev:client",
     "dev:server": "deno run --allow-env --allow-net server/main.ts",
-    "dev:client": "cd client & deno run -A npm:vite"
+    "dev:client": "cd client && deno run -A npm:vite"
   },
   "imports": {
     "@oak/oak": "jsr:@oak/oak@^17.1.3",

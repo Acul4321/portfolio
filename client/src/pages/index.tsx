@@ -16,7 +16,7 @@ export default function Index() {
 
   return (
     <main>
-      {JSON.stringify(data.message)}
+      {JSON.stringify(data)}
     </main>
   );
 }
